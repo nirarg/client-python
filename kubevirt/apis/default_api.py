@@ -247,7 +247,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachines', 'POST',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachines', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -358,7 +358,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstances', 'POST',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -469,7 +469,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancemigrations', 'POST',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -580,7 +580,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancepresets', 'POST',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -691,7 +691,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancereplicasets', 'POST',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -802,7 +802,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinerestores', 'POST',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinerestores', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -913,7 +913,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinesnapshots', 'POST',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinesnapshots', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1024,7 +1024,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinesnapshotcontents', 'POST',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinesnapshotcontents', 'POST',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1149,7 +1149,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/kubevirt', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/kubevirt', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1274,7 +1274,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachines', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachines', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1399,7 +1399,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstances', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1524,7 +1524,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancemigrations', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1649,7 +1649,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancepresets', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1774,7 +1774,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancereplicasets', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -1899,7 +1899,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinerestores', 'DELETE',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinerestores', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2024,7 +2024,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinesnapshots', 'DELETE',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinesnapshots', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2149,7 +2149,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinesnapshotcontents', 'DELETE',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinesnapshotcontents', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2279,7 +2279,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/kubevirt/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/kubevirt/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2409,7 +2409,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachines/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachines/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2539,7 +2539,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstances/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstances/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2669,7 +2669,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancemigrations/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancemigrations/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2799,7 +2799,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancepresets/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancepresets/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -2929,7 +2929,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachineinstancereplicasets/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/virtualmachineinstancereplicasets/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -3059,7 +3059,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinerestores/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinerestores/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -3189,7 +3189,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinesnapshots/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinesnapshots/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -3319,7 +3319,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/virtualmachinesnapshotcontents/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
+        return self.api_client.call_api('/apis/snapshot.kubevirt.io/v1alpha1/namespaces/{namespace}/virtualmachinesnapshotcontents/{name:[a-z0-9][a-z0-9\-]*}', 'DELETE',
                                         path_params,
                                         query_params,
                                         header_params,
@@ -4310,7 +4310,7 @@ class DefaultApi(object):
         # Authentication setting
         auth_settings = []
 
-        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace:[a-z0-9][a-z0-9\-]*}/kubevirt', 'GET',
+        return self.api_client.call_api('/apis/kubevirt.io/v1/namespaces/{namespace}/kubevirt', 'GET',
                                         path_params,
                                         query_params,
                                         header_params,
